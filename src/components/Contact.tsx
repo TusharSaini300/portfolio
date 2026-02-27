@@ -48,7 +48,7 @@ export default function Contact() {
                     {/* Social row */}
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", marginBottom: "2rem" }}>
                         {[
-                            { Icon: FiGithub, href: profile.github, label: "github" },
+                            { Icon: FiGithub, href: profile.github, label: "GitHub" },
                             { Icon: FiLinkedin, href: profile.linkedin, label: "LinkedIn" },
                             { Icon: SiLeetcode, href: profile.leetcode, label: "LeetCode" },
                         ].map(({ Icon, href, label }) => (
