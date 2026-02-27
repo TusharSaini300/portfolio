@@ -29,7 +29,7 @@ export default function Navbar() {
                 style={{ maxWidth: "1200px", width: "100%", margin: "0 auto", padding: "0 2rem", height: "64px", display: "flex", alignItems: "center", justifyContent: "space-between" }}
             >
                 {/* Logo */}
-                <a href="#" style={{ fontSize: "1.25rem", fontWeight: 700 }} className="gradient-text">
+                <a href="/" style={{ fontSize: "1.25rem", fontWeight: 700 }} className="gradient-text">
                     TS.
                 </a>
 
