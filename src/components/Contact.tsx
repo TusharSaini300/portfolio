@@ -23,9 +23,8 @@ export default function Contact() {
                     style={{ padding: "3rem 2rem", textAlign: "center" }}
                 >
                     <p style={{ color: "#94a3b8", marginBottom: "2rem", lineHeight: 1.7, maxWidth: "500px", margin: "0 auto 2rem" }}>
-                        I&apos;m always open to new opportunities and interesting projects.
-                        Whether you have a question or just want to say hi, feel free to
-                        reach out!
+                        I&apos;m open to opportunities, collaborations, and projects where I can contribute and grow.
+                        If you have something in mind or would like to connect, feel free to reach out.
                     </p>
 
                     {/* Contact info */}
@@ -49,7 +48,7 @@ export default function Contact() {
                     {/* Social row */}
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", marginBottom: "2rem" }}>
                         {[
-                            { Icon: FiGithub, href: profile.github, label: "GitHub" },
+                            { Icon: FiGithub, href: profile.github, label: "github" },
                             { Icon: FiLinkedin, href: profile.linkedin, label: "LinkedIn" },
                             { Icon: SiLeetcode, href: profile.leetcode, label: "LeetCode" },
                         ].map(({ Icon, href, label }) => (
