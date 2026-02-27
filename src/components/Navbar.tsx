@@ -60,7 +60,7 @@ export default function Navbar() {
                         </a>
                     ))}
                     <a
-                        href="/Tushar_Saini_Resume.pdf"
+                        href="/Tushar_Saini_TechResume.pdf"
                         target="_blank"
                         style={{
                             padding: "6px 20px",
