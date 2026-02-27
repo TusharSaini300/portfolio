@@ -108,7 +108,7 @@ export default function Navbar() {
                                 </a>
                             ))}
                             <a
-                                href="Tushar_Saini_TechResume.pdf"
+                                href="/Tushar_Saini_TechResume.pdf"
                                 target="_blank"
                                 style={{
                                     padding: "8px 16px",
